@@ -1,0 +1,124 @@
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass beamer
+\begin_preamble
+\usepackage{movie15}
+\usetheme[height=12mm]{Rochester}
+\useinnertheme{rectangles}
+\usefonttheme{structurebold}
+\setbeamertemplate{blocks}[rounded][shadow=true]
+\setbeamercovered{transparent}
+\setbeamertemplate{navigation symbols}{}
+
+
+
+\definecolor{oxygengreen}{HTML}{00BF00}
+\definecolor{oxygengray}{HTML}{686868}
+\definecolor{oxygenlightgray}{HTML}{eeeeee}
+
+\definecolor{oxygenblue}{HTML}{236EAF}
+\setbeamercolor*{Title bar}{fg=white,bg=oxygenblue}
+\setbeamercolor*{Location bar}{fg=oxygenorange,bg=oxygenlightgray}
+\setbeamercolor*{frametitle}{parent=Title bar}
+\setbeamercolor*{block title}{bg=oxygenblue,fg=white}
+\setbeamercolor*{block body}{bg=oxygenlightgray,fg=oxygengray}
+\setbeamercolor*{normal text}{bg=white,fg=oxygengray}
+\setbeamercolor*{section in head/foot}{bg=oxygenblue,fg=white}
+\usecolortheme[named=oxygengreen]{structure}
+\end_preamble
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+LyX - Embed movies in PDF
+\end_layout
+
+\begin_layout Subtitle
+using latex-beamer and movie15
+\end_layout
+
+\begin_layout BeginFrame
+Big Buck Bunny
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{figure}[ht] 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includemovie[poster,text={
+\backslash
+includegraphics[width=8cm, height=6cm]{C:/Downloads/bbb-splash-thumb.png}},
+autoplay,mouse=true]{8cm}{6cm}{C:/Downloads/bbb.wmv}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{figure}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\end_body
+\end_document
