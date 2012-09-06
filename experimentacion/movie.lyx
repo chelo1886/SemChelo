@@ -118,8 +118,13 @@ begin{figure}[ht]
 \backslash
 includemovie[poster,text={
 \backslash
+<<<<<<< HEAD
 includegraphics[width=8cm, height=6cm]{bbb-splash-thumb.png}},autoplay,mouse=true
 ]{8cm}{6cm}{bbb.wmv}
+=======
+includegraphics[width=8cm, height=6cm]{/bbb-splash-thumb.png}},autoplay,mouse=tru
+e]{8cm}{6cm}{/bbb.wmv}
+>>>>>>> bbc0f3d1fa50475b7e827a7501ebee6560a3e984
 \end_layout
 
 \begin_layout Plain Layout
